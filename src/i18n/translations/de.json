@@ -1,0 +1,24 @@
+{
+  "navigation": {
+    "database": "Datenbank",
+    "about": "Über",
+    "npcs": "NPCs",
+    "back_to_index": "Zurück zu flyffDB"
+  },
+  "language": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "fr": "Französisch"
+  },
+  "legal": {
+    "copyright": "Add copyright notice"
+  },
+  "footer": {
+    "database": "Datenbank",
+    "tools": "Werkzeuge",
+    "service": "Service",
+    "github": "Du möchtest helfen?",
+    "discord": "Offizieller Discord"
+  },
+  "placeholder": "Platzhalter"
+}
