@@ -3,7 +3,7 @@
     <div class="sm:flex max-w-grid w-full">
       <div v-for="entry in entries" :key="entry.category" class="sm:flex flex-grow justify-center">
         <div class="mb-6 sm:mb-0">
-          <h4 class="text-lg uppercase mb-2">{{ $t(entry.category) }}</h4>
+          <h4 class="text-lg uppercase mb-2 text-white">{{ $t(entry.category) }}</h4>
 
           <ul>
             <li v-for="link in entry.entries" :key="link.name" class="mb-1">
