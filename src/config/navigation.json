@@ -1,0 +1,16 @@
+[
+  {
+    "name": "navigation.database",
+    "path": "/",
+    "entries": [
+      {
+        "name": "navigation.npcs",
+        "path": "/npc"
+      }
+    ]
+  },
+  {
+    "name": "navigation.about",
+    "path": "/about"
+  }
+]

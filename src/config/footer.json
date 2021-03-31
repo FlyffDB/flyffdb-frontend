@@ -1,0 +1,53 @@
+[
+  {
+    "category": "footer.database",
+    "entries": [
+      {
+        "name": "placeholder",
+        "path": "/"
+      },
+      {
+        "name": "placeholder",
+        "path": "/"
+      },
+      {
+        "name": "placeholder",
+        "path": "/"
+      },
+      {
+        "name": "placeholder",
+        "path": "/"
+      },
+      {
+        "name": "placeholder",
+        "path": "/"
+      }
+    ]
+  },
+  {
+    "category": "footer.tools",
+    "entries": [
+      {
+        "name": "placeholder",
+        "path": "/"
+      },
+      {
+        "name": "placeholder",
+        "path": "/"
+      }
+    ]
+  },
+  {
+    "category": "footer.service",
+    "entries": [
+      {
+        "name": "footer.github",
+        "path": "https://github.com/FlyffDB"
+      },
+      {
+        "name": "footer.discord",
+        "path": "https://discord.gg/mQw4Xdft"
+      }
+    ]
+  }
+]

@@ -1,32 +1,31 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app" class="bg-secondary">
+    <nav-bar />
+
+    <div class="relative z-10">
+      <div class="min-h-screen">
+        <router-view/>
+      </div>
+
+      <page-footer />
     </div>
-    <router-view/>
+
+    <background-layer />
   </div>
 </template>
 
+<script>
+import NavBar from '@/components/NavBar.vue';
+import PageFooter from '@/components/PageFooter.vue';
+import BackgroundLayer from '@/components/BackgroundLayer.vue';
+
+export default {
+  components: { BackgroundLayer, PageFooter, NavBar },
+};
+</script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  min-height: 100vh;
 }
 </style>
