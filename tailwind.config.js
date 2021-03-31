@@ -14,6 +14,7 @@ module.exports = {
       tertiary: '#fab82c',
     },
     textColor: {
+      white: colors.white,
       anchor: '#434080',
       'anchor-hover': '#fab82c',
     },
